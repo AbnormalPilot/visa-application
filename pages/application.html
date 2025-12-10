@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-Visa India | Application</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../assets/image.png" type="image/png">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container header-container">
+            <div class="logo-area">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/55/Emblem_of_India.svg" alt="Emblem of India" class="emblem">
+                <div class="logo-text">
+                    <h1>Government of India</h1>
+                    <p>Ministry of External Affairs</p>
+                </div>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#" class="nav-link">Home</a></li>
+                    <li><a href="#" class="nav-link">Instructions</a></li>
+                    <li><a href="#" class="nav-link">Contact Us</a></li>
+                    <li><a href="#" class="btn btn-secondary">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero-section">
+            <form>
+                <fieldset>
+                    <legend>Application Details</legend>
+                        <label for="Name">Full Name (As Per Passport)</label>
+                        <input id="Name" type="text" name="Name" required><br>
+                        <label for="gender">Gender   
+                        </label>
+                        <label for="gender"><input id="gender" name="gender" type="radio" value="M" required>Male</label>
+                       <label for="gender"><input id="gender" name="gender" type="radio" value="F" required>Female</label>
+                        <label for="gender"><input id="gender" name="gender" type="radio" value="NB" required>Non-Binary</label><br>
+                        <label for="DOB">DOB</label>
+                        <input id="dob" name="dob" type="date" required><br>
+                        <label for="country-birth">Country of Birth</label>
+                        <input id="country-birth" name="country-birth" type="text"><br>
+                        <label for="citizen-id">Citizenship/National ID No.</label>
+                        <input id="citizen-id" name="citizen-id" type="text" required><br>
+                        <label for="religion">Religion</label>
+                        <input id="religion" name="religion" type="text"><br>
+                        <label for="id-marks">Visible Identification</label>
+                        <input id="id-marks" name="id-marks" type="text"><br>
+                        <label for="nationality">Nationality</label>
+                        <input id="nationality" name="nationality" type="text" required>
+                </fieldset>
+                <fieldset>
+                    <legend>Passport Details</legend>
+                    <label for="passport-no">Passport Number</label>
+                    <input id="passport-no" name="passport-no" type="number" required><br>
+                    <label for="place-issue">Place of Issue (Country)</label>
+                    <input id="place-issue" name="place-issue" type="text"><br>
+                    <label for="date-issue">Date of Issue</label>
+                    <input id="date-issue" name="date-issue" type="date"><br>
+                    <label for="date-expiry">Date of Expiry</label>
+                    <input id="date-expiry" name="date-expiry" type="date">
+                </fieldset>
+                <fieldset>
+                    <legend>Address</legend>
+                    <label for="p-address">Permanent Address</label>
+                    <input id="p-address" name="p-address" type="text" required><br>
+                    <label for="c-address">Current Address</label>
+                    <input id="c-address" name="c-address" type="text" required>
+                </fieldset>
+                <fieldset>
+                    <legend>Visa Details</legend>
+                    <label for="type">Visa Type</label>
+                    <select required id="type" name="type">
+                        <option value="">Tourist</option>
+                        <option value="">Medical</option>
+                        <option value="">Business</option>
+                        <option value="">Transit</option>
+                    </select><br>
+                    <label for="visited">Have you ever visted India before ?</label>
+                    <label for="visited"><input type="radio" name="visited" id="visited" value="Y">Yes</label>
+                    <label for="visited"><input type="radio" name="visited" id="visited" value="N">No</label>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    Passport Type
+    Nationality
+    Birth-Date (As Per Passport)
+    Email-ID
+    Expected DOA
+    Passport Photo
+    Purpose of Visit
+    Duration of Visa
+    Captcha
+</body>
+</html>
