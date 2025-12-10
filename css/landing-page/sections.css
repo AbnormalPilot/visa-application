@@ -1,0 +1,138 @@
+
+.hero-section {
+  padding: 80px 0;
+  background: linear-gradient(135deg, #fff5e6 0%, #ffffff 100%);
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+}
+
+.hero-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.badge {
+  background-color: rgba(255, 153, 51, 0.1);
+  color: var(--main-dark-orange);
+  padding: 6px 12px;
+  border-radius: 100px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  display: inline-block;
+  margin-bottom: 24px;
+}
+
+.hero-title {
+  font-family: var(--font-hero);
+  font-size: 3.5rem;
+  line-height: 1.2;
+  margin-bottom: 24px;
+  color: var(--ink);
+}
+
+.highlight {
+  color: var(--main-orange);
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+  color: var(--slate);
+  margin-bottom: 40px;
+  max-width: 90%;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 16px;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: var(--rad-l);
+  box-shadow: var(--shadow-3);
+  padding: 32px;
+}
+
+.card-header h3 {
+  font-family: var(--font-hero);
+  color: var(--chakra-blue);
+  margin-bottom: 24px;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 12px;
+  margin-top: 0;
+}
+
+.service-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.service-list li {
+  padding: 8px 0;
+  margin-bottom: 4px;
+  font-weight: 500;
+  color: var(--ink);
+  display: flex;
+  align-items: center;
+  cursor: default;
+}
+
+.service-list li::before {
+  content: "✓";
+  color: var(--india-green);
+  margin-right: 12px;
+  font-weight: bold;
+}
+
+.steps-section {
+  padding: 100px 0;
+  background-color: var(--white);
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 64px;
+}
+.section-header h2 {
+  font-family: var(--font-hero);
+  font-size: 2.5rem;
+  margin-bottom: 16px;
+  color: var(--ink);
+}
+
+.steps-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+.step-card {
+  background: var(--bg-wash);
+  padding: 40px;
+  border-radius: var(--rad-m);
+  text-align: center;
+}
+
+.step-number {
+  font-size: 4rem;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.05);
+  margin-bottom: 16px;
+  line-height: 1;
+}
+
+.step-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 12px;
+  color: var(--ink);
+}
+
+.step-card p {
+  color: var(--slate);
+}
