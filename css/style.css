@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin: 0;
     padding: 0;
@@ -196,3 +197,11 @@ body{
         flex-basis: 100%;
     }
 }
+=======
+@import url('landing-page/base.css');
+@import url('landing-page/buttons.css');
+@import url('landing-page/header.css');
+@import url('landing-page/sections.css');
+@import url('landing-page/footer.css');
+@import url('landing-page/responsive.css');
+>>>>>>> fbc0feaa159cc3798643c1256504800ec93ae954

@@ -1,0 +1,40 @@
+:root {
+  --main-orange: #FF9933;
+  --main-dark-orange: #cc7a00;
+  --india-green: #138808; 
+  --chakra-blue: #000080;
+  --ink: #1a1a1a;
+  --slate: #666;
+  --bg-wash: #f8f9fa;
+  --white: #ffffff;
+  
+  --font-hero: 'Merriweather', serif;
+  --font-base: 'Inter', sans-serif;
+  
+  --shadow-1: 0 2px 4px rgba(0,0,0,0.05);
+  --shadow-2: 0 4px 12px rgba(0,0,0,0.1);
+  --shadow-3: 0 10px 25px rgba(0,0,0,0.1);
+  
+  --rad-s: 6px;
+  --rad-m: 12px;
+  --rad-l: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-base);
+  color: var(--ink);
+  line-height: 1.6;
+  background-color: var(--bg-wash);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
